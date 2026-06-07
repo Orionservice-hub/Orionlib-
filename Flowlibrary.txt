@@ -71,7 +71,7 @@ local default_icons = {
 
 -- Custom Logo Image
 local Orionlib_ui_img = writefile("Orionlib_ui_logo.png", game:HttpGet(
-    "https://raw.githubusercontent.com/Orionservice-hub/Orionlib_logo/refs/heads/main/file_00000000bcf0720683931ef9e704ac67.png"
+    "https://raw.githubusercontent.com/Orionservice-hub/Orionlib_logo/refs/heads/main/images.jpeg"
 ))
 local Orionlib_ui_logo = getcustomasset("Orionlib_ui_logo.png")
 
@@ -7655,7 +7655,7 @@ function Orionlib_ui_ui.Demo()
     info_group:AddLabel({Name = "Player: " .. tostring(local_player.Name)})
 
     lib:Notify({
-        Title = " orionservice Demo",
+        Title = " Neptune Hub Demo",
         Description = "UI loaded. Press RightCtrl to toggle.",
         Duration = 5
     })
